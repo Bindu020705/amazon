@@ -1,0 +1,45 @@
+# Data files (too large for git)
+dataset/
+*.tsv
+
+# Build artifacts
+work/
+output/
+output_smoke/
+output_exp*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+work_log*.txt
+
+# Model files (if large)
+*.npy
+*.npz
+model.txt
+threshold.npy
+
+# Vendor (rapidfuzz binary)
+code/business_entity_resolution/vendor/
+
+# Analysis output
+dataset_analysis_output.txt
+analyze_dataset.py
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
